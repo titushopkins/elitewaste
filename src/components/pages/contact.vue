@@ -25,7 +25,7 @@
             <h2 class="text-xl font-bold mb-2">Get in Touch</h2>
             <p class="text-gray-700">We’re local and responsive—reach us any time.</p>
             <div class="mt-4 space-y-3 text-gray-800">
-              <a href="tel:5127557020" class="block hover:underline">📞 (512) 755-7020</a>
+              <!-- <a href="tel:5127557020" class="block hover:underline">📞 (512) 755-7020</a> -->
               <a href="mailto:info@elitewastelogistics.com" class="block hover:underline">✉️ info@elitewastelogistics.com</a>
               <p>⏱ Mon–Sat, 8:00am–6:00pm</p>
             </div>
@@ -99,14 +99,12 @@
               <label for="agree" class="text-sm text-gray-700">I agree to be contacted about my request.</label>
             </div>
 
-            <div class="mt-6 flex flex-col sm:flex-row gap-3">
               <button type="submit" class="inline-flex justify-center rounded-xl bg-[#7A2525] px-6 py-3 font-semibold text-white hover:bg-[#5f1d1d]">
                 Send Message
               </button>
-              <a href="tel:5127557020" class="inline-flex justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+              <!-- <a href="tel:5127557020" class="inline-flex justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
                 Call Now
-              </a>
-            </div>
+              </a> -->
 
             <p class="mt-3 text-xs text-gray-500">Easy online payment — no contracts, no hassle.</p>
           </form>

@@ -58,13 +58,50 @@
             </li>
           </ul>
 
-          <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+          <button @click="showForm = true" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
             Book Now
-          </a>
+          </button>
           <p class="mt-2 text-center text-xs text-gray-500">One-time or recurring service available.</p>
         </div>
       </div>
     </section>
+
+
+
+
+
+    <!-- Modal Overlay -->
+    <transition name="fade">
+      <div
+        v-if="showForm"
+        class="fixed inset-0 bg-black/60 flex items-center justify-center z-50"
+      >
+        <div
+          class="bg-white rounded-xl py-8 w-[95%] max-w-3xl relative shadow-2xl"
+        >
+          <button
+            @click="showForm = false"
+            class="absolute top-1 right-2 text-[#7a2525] hover:text-black text-3xl font-bold"
+            aria-label="Close"
+          >
+            ×
+          </button>
+
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdrV6doNvYp-sJuj2qqxOnCr7IIAIBnBCMTSY1aG2L92H_E9g/viewform?embedded=true"
+            class="w-full flex"
+            style="min-height: 80vh;"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+          >
+            Loading…
+          </iframe>
+        </div>
+      </div>
+    </transition>
+
+
 
 
     <!-- HOW IT WORKS -->
@@ -156,9 +193,9 @@
         <h2 class="text-3xl md:text-4xl font-extrabold">Ready to Freshen Your Cans?</h2>
         <p class="mt-3 text-gray-300 text-lg">Book online or contact us for a quick quote.</p>
         <div class="mt-8 flex flex-col md:flex-row justify-center gap-4">
-          <a href="tel:5127557020" class="inline-flex items-center justify-center rounded-xl bg-[#7A2525] px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
+          <!-- <a href="tel:5127557020" class="inline-flex items-center justify-center rounded-xl bg-[#7A2525] px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
             📞 (512) 755-7020
-          </a>
+          </a> -->
           <a href="mailto:info@elitewastelogistics.com" class="inline-flex items-center justify-center rounded-xl bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100">
             ✉️ info@elitewastelogistics.com
           </a>
@@ -168,3 +205,26 @@
 
   </div>
 </template>
+
+
+<script>
+export default {
+  name: "SignUpModal",
+  data() {
+    return {
+      showForm: false, // modal closed by default
+    };
+  },
+};
+</script>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

@@ -7,7 +7,7 @@
           <header class="sticky top-0 bg-gradient-to-t from-[#4a1212] to-black text-white z-30">
             <div class="w-full max-w-5xl mx-auto flex justify-between items-center px-4 sm:px-6 py-4 relative">
               <a href="/" class="flex items-center space-x-2">
-                <img src="/images/elite-waste-logo.svg" class="w-40" />
+                <img src="/images/elite-logo-fixed.svg" class="w-40" />
               </a>
 
               <div class="w-full max-w-40 sm:max-w-none text-center sm:text-end text-white font-bold text-lg sm:text-2xl">Elite Waste Logistics</div>

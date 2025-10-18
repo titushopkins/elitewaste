@@ -44,40 +44,9 @@
 
         </div>
         <!-- Footer -->
-        <footer class="flex flex-col w-full justify-center bg-belk-blue text-gray-200 text-sm py-6 text-center items-center m-auto gap-4">
-            © {{ new Date().getFullYear() }} Lone Star Land Protection. All rights reserved.
+        <footer class="flex flex-col w-full justify-center bg-gradient-to-t from-[#4a1212] to-black text-gray-200 text-sm py-6 text-center items-center m-auto gap-4">
+            © {{ new Date().getFullYear() }} Elite Waste Logistics. All rights reserved.
 
-            <!-- VISITOR TRACKER ADMIN PANEL -->
-      <!-- <div class="">
-        <button
-          v-if="!loggedIn"
-          @click="showLogin = true"
-          class="text-white/80 px-3 py-2 rounded shadow-lg bg-blue-500/10 hover:bg-cyan-700"
-        >
-          Admin
-        </button>
-        <div v-else class="bg-white text-gray-800 p-4 rounded shadow w-80 max-h-96 overflow-y-auto">
-          <h4 class="font-bold text-base text-start mb-2">Visitor Stats</h4>
-          <div class="text-sm"><span class="font-bold">Total Visitors:</span> {{ stats.total }}</div>
-          <div class="text-sm"><span class="font-bold">Average Time:</span> {{ averageTime }} sec</div>
-          <div class="mt-4 text-sm">
-            <h5 class="font-bold text-base text-start mb-1">Recent Visitors:</h5>
-            <ul class="space-y-1">
-              <li
-                v-for="(v, index) in stats.visitors.slice().reverse()"
-                :key="index"
-                class="border-b pb-1"
-              >
-                {{ v.city }}, {{ v.region }}<span v-if="v.isLCRA"> ✅</span><span v-else> ❌</span>
-              </li>
-            </ul>
-          </div>
-          <button
-            class="bg-red-600 mt-2 text-sm text-white rounded p-2 hover:underline"
-            @click="logout"
-          >Logout</button>
-        </div>
-      </div> -->
 
       <!-- LOGIN MODAL -->
       <div

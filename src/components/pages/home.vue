@@ -1,108 +1,165 @@
 <template>
-    <div class="bg-white text-ryan-gray">
-      <!-- HERO -->
-      <div class="bg-gradient-to-tr from-blue-900 to-cyan-700 text-white py-20">
-        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-          <div class="mb-10 md:mb-0 md:w-1/2 pr-8">
-            <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
-                Expert Support for Property Owners Facing Demands for ROW, Easements and other Land Rights
-            </h2>
-            <p class="text-lg mb-6">
-                Have you been notified by a utility or other entity seeking to potentially acquire rights to <span class="font-bold text-red-500">YOUR land?</span> We can help.
-            </p>
-          </div>
-          <img
-            src="/images/ugly-transmission-line.jpg"
-            alt="Power Lines"
-            class="w-full md:w-1/2 rounded-lg shadow-lg h-full object-cover object-center max-h-96 md:max-h-none"
-          />
-        </div>
-      </div>
+  <div class="bg-gray-50 text-gray-900">
 
-      <!-- WHO WE ARE + SERVICES -->
-      <div class="p-8 sm:p-12 bg-gray-50">
-        <div class="max-w-6xl mx-auto md:flex md:items-start md:space-x-10">
-          <div class="md:w-1/2 mb-10 md:mb-0">
-            <h3 class="text-3xl font-bold mb-4 text-ryan-gray">Who We Are</h3>
-            <div class="text-ryan-gray/80">
-            <div>We at Lone Star Land Protection seek to educate and support landowners who face potential acquisition of their property rights. Whether approached by utilities seeking easements for high voltage transmission lines, pipelines, access, or even subsurface mineral leases, we aim to equip and prepare you with the tools and knowledge you need to make an informed decision.</div>
-            <br />
-            <div>Having spent many years working for utilities and similar entities, we’ve gained unique insight into their tactics, strategies — and a deep compassion for the landowners on the other side of the negotiation table. As native Texans with a “come and take it” spirit, we consider it a privilege to stand with you in protecting your land, your rights, and your peace of mind.</div>
-            <br />
-            <div>We provide specialized consultation based on the unique nature of your property. Drawing on our in-depth knowledge of utility regulations, land rights, and local geography, with your permission We can work directly with utility representatives, permitting agencies, environmental authorities, etc., to explore alternative routes, and provide the information and understanding of your land necessary to mitigate and negotiate.  </div>
-           </div>
-          </div>
-          <div class="md:w-1/2">
-            <h3 class="text-3xl font-bold mb-4 text-ryan-gray">Services Offered</h3>
-            <ul class="list-disc list-inside text-ryan-gray/80 space-y-2 text-sm">
-              <li>Survey boundary studies, including ALTA’s, contour and more</li>
-              <li>Assess title reports, and identify any clouds on title or prohibitive encumbrances</li>
-              <li>Evaluate potential land value impacts</li>
-              <li>Flag environmental constraints</li>
-              <li>Identify accessibility and right-of-entry issues</li>
-              <li>Review property records for inconsistencies</li>
-              <li>Provide insight into landowner risk perceptions</li>
-              <li>Analyze corridor overlap and infrastructure conflicts</li>
-              <li>Highlight coordination needs with legal, survey, environmental, cultural and appraisal teams</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- WHY CHOOSE US -->
-      <div class="py-20 bg-white">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-          <h3 class="text-3xl font-bold mb-10 text-ryan-gray">Why Choose Us</h3>
-          <div class="grid md:grid-cols-3 gap-10 text-left">
-            <div class="bg-gray-100 p-6 rounded shadow">
-              <h4 class="text-xl font-semibold mb-3 text-ryan-gray">Deep Industry Experience</h4>
-              <p class="text-ryan-gray/80">With 15 years of experience in land acquisition, ROW negotiation, and development, we have the knowledge and expertise necessary to prepare you for what may be coming</p>
-            </div>
-            <div class="bg-gray-100 p-6 rounded shadow">
-              <h4 class="text-xl font-semibold mb-3 text-ryan-gray">Holistic Approach</h4>
-              <p class="text-ryan-gray/80">We are committed to providing step-by-step guidance at every stage of the process utilizing our knowledge of every facet of land acquisition, from initial notice to offer letter</p>
-            </div>
-            <div class="bg-gray-100 p-6 rounded shadow">
-              <h4 class="text-xl font-semibold mb-3 text-ryan-gray">Favorable Outcome</h4>
-              <p class="text-ryan-gray/80">Honesty and humility are at the core of our approach to every interaction and decision we make. Though we will not promise a particular outcome, we pledge to act with integrity and a resolute work ethic in all that we do. We are confidently committed to achieving the most favorable outcome possible for our fellow Texans.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- FREE CONSULTATION -->
-      <div class="flex w-full justify-center md:mb-0 bg-gray-200 px-8 sm:px-12 py-12 sm:py-20">
-        <div class="space-y-4 w-full max-w-5xl">
-          <h3 class="text-3xl font-bold mb-4 text-ryan-gray">We Value Your Rights</h3>
-          <div class="text-ryan-gray/80">Don’t wait until you receive a survey notice, offer, or form letter from a utility company.</div>
-          <div>Call the phone number below for an initial consultation to assess your needs.</div>
-          <div>You can choose a landowner protection package, which will be tailored to your particular needs:</div>
-          <!-- <ul class="list-disc ml-12">
-            <li>A clear walk-through of what to expect</li>
-            <li>An explanation of how the project may affect your property</li>
-            <li>Practical insight into the kind of compensation you can realistically pursue</li>
-          </ul> -->
-          <!-- <div>Be informed and prepared before you sign anything.</div> -->
-          <div class="italic">
-            “There is no cookie cutter approach to protecting easements and land agreements. Every agreement must be tailored to your unique land.”
-          </div>
-        </div>
-      </div>
-
-      <!-- CONTACT CTA -->
-      <div class="py-20 bg-blue-900 text-white text-center">
-        <div class="max-w-2xl mx-auto px-6">
-          <h3 class="text-3xl font-bold mb-4">Contact Us</h3>
-          <p class="mb-6 text-lg">Reach out to discuss your land rights and protect your property today.</p>
-          <div class="flex flex-col md:flex-row justify-center gap-4">
-            <a href="tel:5127557020" class="inline-block bg-cyan-600 text-white font-semibold px-6 py-3 rounded shadow hover:bg-cyan-700 transition">
-              📞 (512) 755-7020
-            </a>
-            <a href="mailto:lonestarlandprotection@gmail.com" class="inline-block bg-cyan-600 text-white font-semibold px-6 py-3 rounded shadow hover:bg-cyan-700 transition">
-              ✉️ lonestarlandprotection@gmail.com
-            </a>
-          </div>
-        </div>
-      </div>
+    <!-- TOP BAR -->
+    <div class="bg-[#7A2525] text-white text-center text-sm py-2">
+      Locally Owned • Fully Sanitized • Odor-Free Guarantee
     </div>
-  </template>
+
+    <!-- HERO -->
+    <section class="bg-gradient-to-b from-black to-gray-900 text-white">
+      <div class="max-w-7xl mx-auto px-6 py-16 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="flex items-baseline space-x-3">
+            <span class="bg-white text-black font-extrabold tracking-widest px-3 py-1 text-2xl leading-none">ELITE</span>
+            <span class="uppercase tracking-[0.25em] text-sm">Waste Logistics</span>
+          </div>
+          <h1 class="mt-6 text-4xl md:text-5xl font-extrabold leading-tight">
+            Professional Trash Can Cleaning
+          </h1>
+          <p class="mt-5 text-gray-300 text-lg">
+            Your trash cans are breeding bacteria and stinking up your driveway —
+            <span class="font-semibold text-white">we make them look, smell, and feel brand new again in minutes.</span>
+          </p>
+
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#pricing" class="inline-flex justify-center rounded-xl bg-[#7A2525] px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
+              See Pricing
+            </a>
+            <a href="#how" class="inline-flex justify-center rounded-xl px-6 py-3 font-semibold ring-1 ring-white/25 hover:bg-white/10">
+              How It Works
+            </a>
+          </div>
+          <p class="mt-4 text-gray-400 text-sm">Easy online payment — no contracts, no hassle.</p>
+        </div>
+
+        <!-- Price Highlight -->
+        <div class="bg-white text-gray-900 rounded-2xl shadow-2xl p-8">
+          <div class="text-5xl font-extrabold">$35</div>
+          <div class="mt-1 text-lg font-semibold">first can</div>
+          <div class="mt-1 text-gray-600">+ $15 for each additional</div>
+
+          <ul class="mt-6 space-y-3">
+            <li class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-[#7A2525]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <p>Kills <span class="font-semibold">99.9%</span> of germs</p>
+            </li>
+            <li class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-[#7A2525]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <p>Deodorized and spotless</p>
+            </li>
+            <li class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-[#7A2525]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <p>Cleaned curbside — you don’t lift a finger</p>
+            </li>
+          </ul>
+
+          <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+            Book Now
+          </a>
+          <p class="mt-2 text-center text-xs text-gray-500">One-time or recurring service available.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center">How It Works</h2>
+        <div class="mt-10 grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 p-6 rounded-2xl ring-1 ring-gray-200">
+            <div class="text-sm font-semibold text-[#7A2525]">Step 1</div>
+            <h3 class="mt-1 text-xl font-bold">Book Online</h3>
+            <p class="mt-2 text-gray-600">Choose a date and tell us how many cans. We’ll send reminders before arrival.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-2xl ring-1 ring-gray-200">
+            <div class="text-sm font-semibold text-[#7A2525]">Step 2</div>
+            <h3 class="mt-1 text-xl font-bold">Curbside Clean</h3>
+            <p class="mt-2 text-gray-600">High-temp wash + eco-friendly sanitizer. Rinse, deodorize, and dry.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-2xl ring-1 ring-gray-200">
+            <div class="text-sm font-semibold text-[#7A2525]">Step 3</div>
+            <h3 class="mt-1 text-xl font-bold">Smell-Good Finish</h3>
+            <p class="mt-2 text-gray-600">Your cans are left spotless and odor-free. No contracts — pay as you go.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="py-16 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center">Simple, Upfront Pricing</h2>
+        <p class="text-center text-gray-600 mt-2">Transparent rates with no surprises.</p>
+
+        <div class="mt-10 grid lg:grid-cols-3 gap-8">
+          <!-- One-Time -->
+          <div class="bg-white rounded-2xl shadow p-8">
+            <h3 class="font-bold text-xl">One-Time Clean</h3>
+            <div class="mt-3">
+              <div class="text-4xl font-extrabold">$35</div>
+              <div class="text-gray-600">first can</div>
+              <div class="text-gray-600">+ $15 each additional</div>
+            </div>
+            <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+              Book One-Time
+            </a>
+          </div>
+
+          <!-- Monthly (featured) -->
+          <div class="bg-[#7A2525] text-white rounded-2xl shadow-lg p-8 ring-4 ring-[#7A2525]/20">
+            <h3 class="font-bold text-xl">Monthly Plan</h3>
+            <p class="text-white/80">Best for busy households</p>
+            <div class="mt-3">
+              <div class="text-4xl font-extrabold">$25</div>
+              <div class="opacity-80">per visit • first can</div>
+              <div class="opacity-80">+ $10 each additional</div>
+            </div>
+            <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100">
+              Start Monthly
+            </a>
+          </div>
+
+          <!-- Quarterly -->
+          <div class="bg-white rounded-2xl shadow p-8">
+            <h3 class="font-bold text-xl">Quarterly Plan</h3>
+            <div class="mt-3">
+              <div class="text-4xl font-extrabold">$30</div>
+              <div class="text-gray-600">per visit • first can</div>
+              <div class="text-gray-600">+ $12 each additional</div>
+            </div>
+            <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+              Choose Quarterly
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST/FEATURES STRIP -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto px-6 py-10 grid sm:grid-cols-3 gap-6 text-center">
+        <div class="rounded-xl bg-gray-50 p-5 ring-1 ring-gray-200">✅ Fully Sanitized</div>
+        <div class="rounded-xl bg-gray-50 p-5 ring-1 ring-gray-200">✅ Odor-Free Guarantee</div>
+        <div class="rounded-xl bg-gray-50 p-5 ring-1 ring-gray-200">✅ Curbside Convenience</div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section id="contact" class="bg-black text-white">
+      <div class="max-w-3xl mx-auto px-6 py-16 text-center">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Ready to Freshen Your Cans?</h2>
+        <p class="mt-3 text-gray-300 text-lg">Book online or contact us for a quick quote.</p>
+        <div class="mt-8 flex flex-col md:flex-row justify-center gap-4">
+          <a href="tel:5127557020" class="inline-flex items-center justify-center rounded-xl bg-[#7A2525] px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
+            📞 (512) 755-7020
+          </a>
+          <a href="mailto:info@elitewastelogistics.com" class="inline-flex items-center justify-center rounded-xl bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100">
+            ✉️ info@elitewastelogistics.com
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</template>

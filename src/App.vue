@@ -118,7 +118,7 @@ const LCRA_COUNTIES = ["Burnet", "Travis", "Bastrop", "Fayette", "Llano", "Gille
 export default {
   components: { login },
   inject: ['store','darkMode'],
-  name: "LoneStarPage",
+  name: "EliteWaste",
   data() {
     return {
       navHidden: false,

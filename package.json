@@ -1,5 +1,5 @@
 {
-    "name": "lonestar",
+    "name": "elitewaste",
     "version": "0.0.0",
     "scripts": {
         "dev": "VITE_DEVMODE=true vite",

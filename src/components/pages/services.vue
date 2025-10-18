@@ -24,7 +24,7 @@
 
   <script>
   export default {
-    name: "LoneStarPage",
+    name: "EliteWaste",
   };
   </script>
 

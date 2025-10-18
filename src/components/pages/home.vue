@@ -1,11 +1,6 @@
 <template>
   <div class="bg-gray-50 text-gray-900">
 
-    <!-- TOP BAR -->
-    <div class="bg-[#7A2525] text-white text-center text-sm py-2">
-      Locally Owned • Fully Sanitized • Odor-Free Guarantee
-    </div>
-
     <!-- HERO -->
     <section class="bg-gradient-to-b from-black to-gray-900 text-white">
       <div class="max-w-7xl mx-auto px-6 py-16 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
@@ -30,7 +25,16 @@
               How It Works
             </a>
           </div>
-          <p class="mt-4 text-gray-400 text-sm">Easy online payment — no contracts, no hassle.</p>
+          <ul class="flex flex-col space-y-1 mt-4 text-sm list-none text-gray-400">
+            <li class="flex items-center">
+             <svg class="w-6 h-6 text-[#7A2525]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+             <p>Locally Owned • Fully Sanitized • Odor-Free Guarantee</p>
+            </li>
+            <li class="flex items-center">
+             <svg class="w-6 h-6 text-[#7A2525]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+             <p>Easy online payment — no hassle.</p>
+            </li>
+          </ul>
         </div>
 
         <!-- Price Highlight -->
@@ -61,6 +65,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- HOW IT WORKS -->
     <section id="how" class="py-16 bg-white">

@@ -1,0 +1,44 @@
+{
+    "name": "lonestar",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "VITE_DEVMODE=true vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "mango": "mango"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.6.7",
+        "@mapbox/mapbox-gl-geocoder": "^5.0.0",
+        "@sweetalert2/theme-dark": "^5.0.10",
+        "@tinymce/tinymce-vue": "^4",
+        "@vitejs/plugin-vue": "^5.2.3",
+        "@vueup/vue-quill": "^1.0.0-beta.7",
+        "@vueuse/motion": "^2.0.0-beta.12",
+        "algoliasearch": "^4.12.0",
+        "axios": "^0.24.0",
+        "canvas-confetti": "^1.5.1",
+        "datebook": "^7.0.8",
+        "dayjs": "^1.10.7",
+        "express": "^4.18.1",
+        "firebase": "^11.9.1",
+        "google-maps": "^4.3.3",
+        "mango-cms": "^0.2.16",
+        "mapbox-gl": "^2.7.0",
+        "socket.io-client": "^4.8.1",
+        "sweetalert2": "^11.4.0",
+        "vue": "^3.2.37",
+        "vue-router": "4",
+        "vue-slider-component": "^4.0.0-beta.4",
+        "vue-upload-component": "^3.1.2",
+        "vue3-clipboard": "^1.0.0",
+        "vue3-touch-events": "^4.1.0",
+        "vuedraggable": "^4.1.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.2",
+        "vite": "^6.3.5"
+    }
+}

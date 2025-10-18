@@ -1,0 +1,19 @@
+{
+  "port": 6646,
+  "siteName": "lonestar",
+  "siteDomain": "lonestarlandprotection.com",
+  "mangoDomain": "api.lonestarlandprotection.com",
+  "useDevAPI": true,
+  "mongoURI": "mongodb://127.0.0.1:27017",
+  "database": "lonestar",
+  "s3AccessKeyId": null,
+  "s3AccessKeySecret": null,
+  "s3Region": null,
+  "s3Bucket": "lonestar",
+  "mailgunKey": null,
+  "mailgunDomain": null,
+  "algoliaAppId": null,
+  "algoliaSearchKey": null,
+  "algoliaIndex": null,
+  "license": "admin"
+}

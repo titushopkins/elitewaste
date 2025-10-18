@@ -1,0 +1,281 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article a {
+	@apply font-semibold cursor-pointer
+}
+
+.article a:hover {
+	@apply underline
+}
+
+.article p,
+.article div,
+.article ul,
+.article ol,
+.article h2,
+.article h3,
+.article h4,
+.article blockquote {
+	@apply mt-4 text-sm leading-relaxed break-words
+}
+
+.article li {
+	@apply mt-2
+}
+
+.article h2 {
+	@apply text-base font-semibold
+}
+
+.article > :first-child,
+.article > :first-child > :first-child,
+.article > :first-child > :first-child > :first-child {
+	margin-top: 0px!important;
+}
+
+.article > .ql-container > .ql-editor > :first-child,
+.article > .ql-container > .ql-editor > :first-child > :first-child,
+.article > .ql-container > .ql-editor > :first-child > :first-child > :first-child {
+	margin-top: 0px!important;
+}
+/*.article > :first-child > :first-of-type {
+	margin-top: 0px
+}*/
+
+/*.ql-editor > :first-child {
+	margin-top: 0px
+}*/
+
+.article blockquote {
+	@apply
+		px-8
+		italic
+		text-gray-600
+}
+
+@screen md {
+    .article p,
+    .article div,
+    .article ul,
+    .article ol,
+    .article h2,
+    .article h3,
+    .article h4,
+    .article blockquote {
+        @apply mt-8 text-base leading-relaxed
+    }
+
+    .article li {
+        @apply mt-4
+    }
+
+    .article h2 {
+        @apply text-2xl font-semibold
+    }
+}
+
+
+.space-1 {
+    @apply p-4
+}
+
+@screen md {
+    .space-1 {
+        @apply p-6
+    }
+}
+
+@screen xl {
+    .space-1 {
+        @apply p-8
+    }
+}
+
+
+
+.book-article a {
+	@apply font-semibold cursor-pointer
+}
+
+.book-article a:hover {
+	@apply underline
+}
+
+@screen md {
+
+    .book-article p,
+    .book-article div,
+    .book-article ul,
+    .book-article ol,
+    .book-article h2,
+    .book-article h3,
+    .book-article h4,
+    .book-article blockquote {
+        @apply mt-16
+    }
+
+    .book-article li {
+        @apply mt-8
+    }
+
+    .book-article h2 {
+        @apply text-5xl font-semibold
+    }
+}
+
+.book-article p,
+.book-article div,
+.book-article ul,
+.book-article ol,
+.book-article h2,
+.book-article h3,
+.book-article h4,
+.book-article blockquote {
+	@apply mt-8
+}
+
+.book-article ul {
+	@apply list-disc
+}
+
+.book-article li {
+	@apply mt-4
+}
+
+.book-article h2 {
+	@apply text-2xl font-bold
+}
+
+.book-article > :first-child,
+.book-article > :first-child > :first-child,
+.book-article > :first-child > :first-child > :first-child {
+	margin-top: 0px!important;
+}
+
+.book-article > .ql-container > .ql-editor > :first-child,
+.book-article > .ql-container > .ql-editor > :first-child > :first-child,
+.book-article > .ql-container > .ql-editor > :first-child > :first-child > :first-child {
+	margin-top: 0px!important;
+}
+/*.book-article > :first-child > :first-of-type {
+	margin-top: 0px
+}*/
+
+/*.ql-editor > :first-child {
+	margin-top: 0px
+}*/
+
+.book-article blockquote {
+	@apply
+		px-8
+		italic
+		text-gray-500
+}
+
+
+.ql-clipboard,
+.ql-tooltip {
+    display: none!important;
+}
+
+.ql-editor {
+    outline: none!important;
+}
+
+table.schedule {
+    @apply
+        my-4
+        w-full
+        text-xs
+        border-y
+        table-auto
+        border-collapse
+        dark:text-gray-500
+        dark:border-gray-800
+}
+
+table.schedule tr:nth-child(odd) {
+	@apply bg-gray-100 dark:bg-gray-800
+}
+
+table.schedule td {
+	@apply m-0 p-2
+}
+
+
+@screen md {
+    table.schedule {
+        @apply
+            my-8
+            text-sm
+    }
+
+    table.schedule td {
+        @apply m-0 p-4
+    }
+}
+
+
+.article-xs p,
+.article-xs div,
+.article-xs ul,
+.article-xs ol,
+.article-xs h2,
+.article-xs h3,
+.article-xs h4,
+.article-xs blockquote {
+    @apply mt-2 text-xs leading-relaxed
+}
+
+.article-xs li {
+    @apply mt-1
+}
+
+.article-xs h2 {
+    @apply text-sm
+}
+
+.article-sm p,
+.article-sm div,
+.article-sm ul,
+.article-sm ol,
+.article-sm h2,
+.article-sm h3,
+.article-sm h4,
+.article-sm blockquote {
+    @apply mt-4 text-sm leading-relaxed
+}
+
+.article-sm li {
+    @apply mt-2
+}
+
+.article-sm h2 {
+    @apply text-base
+}
+
+.article-md p,
+.article-md div,
+.article-md ul,
+.article-md ol,
+.article-md h2,
+.article-md h3,
+.article-md h4,
+.article-md blockquote {
+    @apply mt-4 text-base leading-relaxed
+}
+
+.article-md li {
+    @apply mt-2
+}
+
+.article-md h2 {
+    @apply text-2xl
+}
+
+.video-container,
+.video-container iframe {
+    @apply aspect-video w-full !h-auto
+}

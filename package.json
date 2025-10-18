@@ -2,10 +2,9 @@
     "name": "elitewaste",
     "version": "0.0.0",
     "scripts": {
-        "dev": "VITE_DEVMODE=true vite",
-        "build": "vite build",
-        "preview": "vite preview",
-        "mango": "mango"
+      "dev": "vite",
+      "build": "vite build",
+      "deploy": "yarn build && git add . && git commit -m 'Deploy latest build' && git push origin main"
     },
     "dependencies": {
         "@headlessui/vue": "^1.6.7",

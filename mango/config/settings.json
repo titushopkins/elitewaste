@@ -1,8 +1,8 @@
 {
   "port": 6646,
-  "siteName": "lonestar",
-  "siteDomain": "lonestarlandprotection.com",
-  "mangoDomain": "api.lonestarlandprotection.com",
+  "siteName": "elitewaste",
+  "siteDomain": "lclean-waste-logistics.com",
+  "mangoDomain": "api.clean-waste-logistics.com",
   "useDevAPI": true,
   "mongoURI": "mongodb://127.0.0.1:27017",
   "database": "lonestar",

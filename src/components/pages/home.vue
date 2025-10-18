@@ -59,7 +59,7 @@
           </ul>
 
           <button @click="showForm = true" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
-            Book Now
+            Sign Up Now
           </button>
           <p class="mt-2 text-center text-xs text-gray-500">One-time or recurring service available.</p>
         </div>
@@ -143,9 +143,9 @@
               <div class="text-gray-600">first can</div>
               <div class="text-gray-600">+ $15 each additional</div>
             </div>
-            <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
-              Book One-Time
-            </a>
+            <button @click="showForm = true" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+              Sign Up Now
+            </button>
           </div>
 
           <!-- Monthly (featured) -->
@@ -157,9 +157,9 @@
               <div class="opacity-80">per visit • first can</div>
               <div class="opacity-80">+ $10 each additional</div>
             </div>
-            <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100">
+            <button @click="showForm = true" class="mt-8 inline-flex w-full justify-center rounded-xl bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100">
               Start Monthly
-            </a>
+            </button>
           </div>
 
           <!-- Quarterly -->
@@ -170,9 +170,9 @@
               <div class="text-gray-600">per visit • first can</div>
               <div class="text-gray-600">+ $12 each additional</div>
             </div>
-            <a href="#contact" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+            <button @click="showForm = true" class="mt-8 inline-flex w-full justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
               Choose Quarterly
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -193,9 +193,9 @@
         <h2 class="text-3xl md:text-4xl font-extrabold">Ready to Freshen Your Cans?</h2>
         <p class="mt-3 text-gray-300 text-lg">Book online or contact us for a quick quote.</p>
         <div class="mt-8 flex flex-col md:flex-row justify-center gap-4">
-          <!-- <a href="tel:5127557020" class="inline-flex items-center justify-center rounded-xl bg-[#7A2525] px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
-            📞 (512) 755-7020
-          </a> -->
+          <button @click="showForm = true" class="inline-flex items-center justify-center rounded-xl bg-[#7A2525] px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
+            Sign Up Services
+          </button>
           <a href="mailto:info@elitewastelogistics.com" class="inline-flex items-center justify-center rounded-xl bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100">
             ✉️ info@elitewastelogistics.com
           </a>

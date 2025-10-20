@@ -19,6 +19,7 @@ if (!fs.existsSync(configPath)) {
   }
 }
 
+
 export default defineConfig({
   plugins: [vue()],
   server: {
@@ -38,14 +39,6 @@ export default defineConfig({
     exclude: ['vue'],
   },
 
-  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-  // GitHub Pages /docs deployment essentials
-  base: '/',                 // you have a custom domain, so keep base = '/'
-  build: {
-    outDir: 'docs',          // emit the production build into /docs
-    emptyOutDir: true,       // wipe old files each build so no stale assets
-    assetsDir: 'assets',     // nice defaults (optional)
-    sourcemap: false,
-  },
-  // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ base: '/',
+  build: { outDir: 'dist', emptyOutDir: true, assetsDir: 'assets', sourcemap: false }
 })

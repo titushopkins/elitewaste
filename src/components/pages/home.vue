@@ -6,7 +6,7 @@
       <div class="max-w-7xl mx-auto px-6 py-16 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <div class="flex items-baseline space-x-3">
-            <span class="bg-white text-black font-extrabold tracking-widest px-3 py-1 text-2xl leading-none">Are you absolutely insane?</span>
+            <span class="bg-white text-black font-extrabold tracking-widest px-3 py-1 text-2xl leading-none uppercase">Elite</span>
             <span class="uppercase tracking-[0.25em] text-sm">Waste Logistics</span>
           </div>
           <h1 class="mt-6 text-4xl md:text-5xl font-extrabold leading-tight">

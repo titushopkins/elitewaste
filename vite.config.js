@@ -39,6 +39,6 @@ export default defineConfig({
     exclude: ['vue'],
   },
 
- base: '/',
-  build: { outDir: 'dist', emptyOutDir: true, assetsDir: 'assets', sourcemap: false }
+base: '/',
+  build: { outDir: 'docs', emptyOutDir: true }
 })

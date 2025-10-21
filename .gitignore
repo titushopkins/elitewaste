@@ -2,4 +2,4 @@ node_modules
 .DS_store
 yarn.lock
 build
-dist
+docs
